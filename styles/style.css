@@ -1,20 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #E5E4E2;
   
 }
 header{
-   
+  
 }
 a{
     text-decoration: none;
-     color:#696969;
-     font-size: 27px;
+     color: white;
+     font-size: 20px;
     font-weight: 800;
+    margin-right: 300px;
+    margin-right: 50px;
 }
 ul{
     display: flex;
-    text-align: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    background-color:black;
+    padding: 13PX 10px;
 }
 li {
     list-style: none;
@@ -37,21 +46,21 @@ img{
     text-align: center; 
 }
 .photo{
-     display: flex;        /* image + text side by side */
+     display: flex;      
       gap: 20px;
      align-items: flex-start;
-     margin-left: -400px;
+     margin-left: -450px;
      margin-bottom: 140px;
 }
 .biog{
      display: flex;
-  flex-direction: column;  /* p tags under each other */
+  flex-direction: column; 
 }
 .biog p{
     font-size: 30px;
     font-weight:400 ;
     color: #696969; 
-    margin-top:65px;
+    margin-top:110px;
 }
 .biog1 p{
     margin-top: 65px;
