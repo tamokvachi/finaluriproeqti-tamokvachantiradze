@@ -4,16 +4,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Arial Geo';
+    src: url(../fonts/arial_geo.ttf);
+}
+
 body{
-    background-color: #E5E4E2;
-  
+    background-color:  #1C1F2A;
+    font-family: 'Arial Geo';
 }
 header{
   
 }
 a{
     text-decoration: none;
-     color: white;
+    color: #F5F3EF;
      font-size: 20px;
     font-weight: 800;
     margin-right: 300px;
@@ -22,11 +27,14 @@ a{
 ul{
     display: flex;
     justify-content: flex-start;
-    background-color:black;
+    background-color: #12151C;
     padding: 13PX 10px;
 }
 li {
     list-style: none;
+}
+.active{
+    color:#BFC9D4 ;
 }
 img{
    margin-left: 500px; 
@@ -36,14 +44,50 @@ img{
 .main h1{
     margin-left: 70px;
     font-size: 35px;
-    color: #696969;
+    color: #F5F3EF ;
     text-align: center;
 }
 .main h2{
     margin-left: 70px;
     font-size: 35px;
-    color: #696969;
+    color:  #F5F3EF;
     text-align: center; 
+}
+.main2 p{
+    font-size: 30px;
+     color: #F5F3EF;
+      margin-left: 70px;
+      margin-top: 70px;
+      text-align: center;
+}
+.main3 p{
+     font-size: 30px;
+     color: #F5F3EF;
+      margin-left: 70px;
+      margin-top: 70px;
+      text-align: center;
+}
+.main4 p{
+    font-size: 30px;
+     color: #F5F3EF;
+      margin-left: 70px;
+      margin-top: 70px;
+      text-align: center;
+}
+.main5 p{
+    font-size: 30px;
+     color: #F5F3EF;
+      margin-left: 70px;
+      margin-top: 70px;
+      text-align: center;
+}
+.last-main{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    background-color: ;
+    margin-bottom: 50px;
 }
 .photo{
      display: flex;      
@@ -52,6 +96,7 @@ img{
      margin-left: -450px;
      margin-bottom: 140px;
 }
+
 .biog{
      display: flex;
   flex-direction: column; 
@@ -59,15 +104,73 @@ img{
 .biog p{
     font-size: 30px;
     font-weight:400 ;
-    color: #696969; 
+    color:  #F5F3EF; 
     margin-top:110px;
+}
+.plane{
+    display: flex;
+}
+h1{
+     color: #C9A24D;
+    font-size: 35px;
+     margin-left: 60px;
+}
+.plane p{
+    color:  #F5F3EF;
+    font-size: 30px;
+    margin-bottom: 50px;
+     margin-left: 60px;
+}
+.plane img{
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+.plane1 p{
+    color: #F5F3EF;
+    font-size: 30px;
+    margin-bottom: 150px;
+     margin-left: 60px;
+}
+.biog1{
+    display: flex;
+}
+.biog1 img{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.biog1 h1{
+    color: #C9A24D;
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-left: 60px;
+    margin-top: 10px;  
 }
 .biog1 p{
     margin-top: 65px;
      font-size: 30px;
     font-weight:400 ;
-    color: #696969;
+    color:  #F5F3EF;
+    margin-left: -250px;
+    margin-bottom: 150px;
+}
+.biog2 p{
+    margin-top: 65px;
+     font-size: 30px;
+    font-weight:400 ;
+    color:  #F5F3EF;
     margin-left: 60px;
+}
+.books{
+    display: flex;
+    align-items: center;
+    margin-left: -450px;
+
 }
 .box{
     display:flex; 
@@ -77,7 +180,7 @@ img{
     flex-direction: column;
     width: 500px;
    height: 500px;
-       margin-right: 500px;
+   margin-right: 600px;
 }
 .boxpic img{
     width: 400px;
@@ -87,18 +190,20 @@ img{
 }
 .box h1{
     font-size: 35px;
-    color: #696969;
+    color: #C9A24D;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .box p{
     font-size: 30px;
     font-weight: 400;    
-     color: #696969; 
+     color:  #F5F3EF; 
    margin-left:400px;
    margin-top: 150px;
 }
 .boxx{
      font-size: 35px;
-    color: #696969;
+    color:  #F5F3EF;
     margin-left: 40px;
     margin-bottom: 80px;
     margin-top: 90px;
@@ -106,13 +211,14 @@ img{
 
 .box1 h1{
 font-size: 35px;
-    color: #696969;
+    color: #C9A24D;
+    margin-left: 30px;
 }
 .box1 p{
     font-size: 30px;
     font-weight: 400;
     margin-left: 30px;
-     color: #696969; 
+     color:  #F5F3EF; 
 }
 .images{
     display: flex;
@@ -121,13 +227,21 @@ font-size: 35px;
     width: 500px;
     height: 500px;
 }
+.footer{
+    /* display: flex; */
+}
 .footer h2{
     font-size: 40px;
-    color: #696969;
+    color:  #C9A24D;
+    margin-left: 30px;
 }
 .footer h5{
     font-size: 20px;
-    color: #696969;
+    color:  #F5F3EF;
+    margin-left: 20px;
+    /* margin-right: 100px;
+    margin-top: 70px;
+    margin-bottom: 90px; */
 }
 .footer{
     margin-top: 150px;
@@ -136,16 +250,32 @@ font-size: 35px;
     margin-left: 100px;
     margin-top: 110px;
 }
-.card2{
-     display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -330px;
-  margin-left: 150px;
+.card h1{
+    margin-bottom: 40px;
+    color: #F5F3EF;
 }
-.contact-info{
-    margin-top: 250px;
-    display: flex;
-    gap: 150px;
-    margin-left: 120px;
+.contact {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top:90px;
+}
+
+.contact-info {
+  background-color:#C9A24D ; 
+  width: 420px;
+  padding: 60px;
+  text-align: center;
+  border: 1px solid #12151C;
+}
+
+.contact-info img {
+  width: 70px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.contact-info h3 {
+  margin-bottom: 6px;
+  color: #12151C;
 }
