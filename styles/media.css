@@ -1,0 +1,235 @@
+@media only screen and (max-width: 480px){
+.main img{
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+.main h1{
+    font-size: 30px;
+    width: 400px;
+}
+.main h2{
+     font-size: 30px;
+    width: 400px;
+}
+.main2 p{
+     font-size: 30px;
+    width: 400px;
+}
+.main3 p{
+     font-size: 30px;
+    width: 400px;
+}
+.main4 p{
+     font-size: 30px;
+    width: 400px;
+}
+.main5 p{
+     font-size: 30px;
+    width: 400px;
+}
+.last-main{
+     font-size: 30px;
+    width: 400px;
+    margin-left: 50px;
+}
+.photo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: 450px;
+    margin-top: 30px;
+    align-items: center;
+}
+.biog p{
+    font-size: 20px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+h1{
+    width: 350px;
+    margin-left: 10px;
+}
+.plane{
+    display: flex;
+    flex-direction: column;
+}
+.plane p{
+    font-size: 20px;
+    width: 350px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.plane img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.plane1 p{
+      font-size: 20px;
+    width: 350px;
+    margin-left: 10px;
+}
+.biog1{
+    display: flex;
+    flex-direction: column;
+}
+.biog1 h1{
+    margin-left: 10px;
+    margin-top: -130px;
+}
+.biog1 p{
+    width: 350px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.biog1 img{
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.biog2 p{
+   width: 300px;
+   font-size: 20px;
+   margin-left: 10px;
+   margin-top: 30px;
+
+}
+.book{
+    display: flex;
+    flex-direction: column;
+}
+.book img{
+    width: 350px;
+    height: 350px;
+    margin-left: 460px;
+}
+.book p{
+    margin-left: 460px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.book2{
+    display: flex;
+    flex-direction: column;
+}
+.book2 img{
+     width: 350px;
+    height: 350px;
+     margin-left: 460px;
+}
+.book2 p{
+    margin-left: 460px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.book3{
+    display: flex;
+    flex-direction: column;
+}
+.book3 img{
+   width: 350px;
+    height: 350px;  
+     margin-left: 460px;
+}
+.book3 p{
+    margin-left: 460px;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 30px; 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.box p{
+    width: 300px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.boxpic img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.boxx p{
+    font-size: 20px;
+    width: 300px;
+    margin-top: -210px;
+    margin-left: -20px; 
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.box1 p{
+    font-size: 20px;
+    width: 300px;
+    text-align: start;
+    margin-left: 10px;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.footer-row1 ul {
+  display: flex;
+  flex-direction: column; 
+}
+.music-1 h2{
+    width: 300px;
+    font-size: 35px;
+    margin-top: -100px;
+}
+.footer-row1 h5{
+ margin-top: -20px;
+ margin-bottom: 20px;
+}
+.photo-alnom{
+    display: flex;
+    flex-direction: column;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+.card h1{
+    font-size: 20px;
+    width: 300px;
+    margin-left: -80px;
+    margin-top: -50px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;   
+}
+.contact-info{
+    width: 300px;
+    height: 300px;
+    margin-left: -90px;
+}
+}
+@media only screen and (max-width:768px){
+
+}
+
+
+    
