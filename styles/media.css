@@ -1,5 +1,10 @@
 
 @media only screen and (max-width:1440px){
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
     .main img{
       margin-left: 150px;
     }
@@ -66,6 +71,11 @@
 
 
 @media only screen and (max-width:768px){
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
     ul{
      flex-direction: column;
     align-items: center;
@@ -239,9 +249,16 @@ margin-left: 600px;
 
 
 @media only screen and (max-width: 480px){
-    body{
-        overflow: none;
-    }
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; 
+}
     ul{
      flex-direction: column;
     align-items: center;
@@ -278,7 +295,7 @@ margin-left: 600px;
 .last-main{
      font-size: 30px;
      width: 250px;
-    margin-left: 30px;
+    
 }
 .photo{
     display: flex;
@@ -289,19 +306,19 @@ margin-left: 600px;
     width: 300px;
     height: 300px;
     display: block;
-    margin-left: 450px;
+    margin-right: 40px;
     margin-top: 30px;
     align-items: center;
 }
 .biog p{
     font-size: 20px;
     width: 300px;
-    margin-left: 450px;
-    margin-top: 50px;
+    margin-right: 40px;
+    text-align: center;
 }
 h1{
     width: 350px;
-    margin-left: 10px;
+    margin: 0 auto;  
 }
 .plane{
     display: flex;
@@ -310,62 +327,64 @@ h1{
 .plane p{
     font-size: 20px;
     width: 350px;
-    margin-left: 10px;
-    margin-bottom: 5px;
+     margin: 0 auto;
+     align-items: center;
 }
 .plane img{
     width: 350px;
     height: 350px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin: 20px auto;
+    align-items: center;   
 }
 .plane1 p{
       font-size: 20px;
     width: 350px;
-    margin-left: 10px;
+    margin: 0 auto;
+    
 }
 .biog1{
     display: flex;
     flex-direction: column;
 }
 .biog1 h1{
-    margin-left: 10px;
-    margin-top: -130px;
+    margin: 20px auto;
+    align-items: center;
 }
 .biog1 p{
     width: 350px;
     font-size: 20px;
-    margin-left: 10px;
-    margin-top: 20px;
+    margin: 0 auto;
+    align-items: center;
 }
 .biog1 img{
     width: 300px;
     height: 300px;
-    margin-top: -100px;
-    margin-bottom: 20px;
+    margin: 15px auto;
+    align-items: center;
 }
 
 .biog2 p{
-   width: 300px;
-   font-size: 20px;
-   margin-left: 10px;
-   margin-top: 30px;
-
+   width: 350px;
+    font-size: 20px;
+    margin: 10px auto;
+    align-items: center;
 }
 .book{
     display: flex;
     flex-direction: column;
 }
 .book img{
-    width: 350px;
-    height: 350px;
-    margin-left: 460px;
+    width: 300px;
+    height: 300px;
+     margin-left: 480px;
+    align-items: center;
+    
 }
 .book p{
-    margin-left: 460px;
     width: 300px;
     font-size: 20px;
-    margin-top: 30px;
+    text-align: center;
+    align-items: center;
 }
 .book2{
     display: flex;
@@ -374,13 +393,14 @@ h1{
 .book2 img{
      width: 350px;
     height: 350px;
-     margin-left: 460px;
+    align-items: center;
+     margin-left: 480px;
+     
 }
 .book2 p{
-    margin-left: 460px;
     width: 300px;
     font-size: 20px;
-    margin-top: 30px;
+    align-items: center;
 }
 .book3{
     display: flex;
@@ -389,10 +409,12 @@ h1{
 .book3 img{
    width: 350px;
     height: 350px;  
-     margin-left: 460px;
+    align-items: center;
+    margin-left: 480px;
 }
 .book3 p{
-    margin-left: 460px;
+    align-items: center;
+    text-align: center;
     width: 300px;
     font-size: 20px;
     margin-top: 30px; 
@@ -404,20 +426,21 @@ h1{
 .box p{
     width: 300px;
     font-size: 20px;
-    margin-left: 20px;
-    margin-top: 30px;
+     margin: 0 auto;
+    align-items: center;
+    text-align: center;
 }
 .boxpic img{
     width: 300px;
     height: 300px;
-    margin-left: 10px;
+    
     margin-top: 30px;
 }
 .boxx p{
     font-size: 20px;
     width: 300px;
     margin-top: -210px;
-    margin-left: -20px; 
+    
 }
 .box1{
     display: flex;
@@ -427,12 +450,12 @@ h1{
     font-size: 20px;
     width: 300px;
     text-align: start;
-    margin-left: 10px;
+    
 }
 .images img{
     width: 300px;
     height: 300px;
-    margin-left: 10px;
+    
     margin-top: 30px;
 }
 .footer-row1 ul {
@@ -455,12 +478,12 @@ h1{
 .gallery img{
     width: 300px;
     height: 300px;
-    margin-left: 30px;
+    
 }
 .card h1{
     font-size: 20px;
     width: 300px;
-    margin-left: -80px;
+    
     margin-top: -50px;
 }
 .contact{
