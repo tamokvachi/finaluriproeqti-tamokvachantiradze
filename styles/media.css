@@ -58,6 +58,9 @@
     height: 350px;
     margin-right: 30px;
     }
+    .tbc img{
+        margin-left: 250px;
+    }
 
 }
 
@@ -228,10 +231,8 @@ margin-left: 600px;
   height: 300px;
   margin-left: -30px;
 }
-.menu-btn {
-  display: block;
-  min-width: 320px;
-  max-width: 1550px;
+.tbc img{
+    margin-left: 100px;
 }
 
 }
@@ -469,6 +470,9 @@ h1{
     width: 300px;
     height: 300px;
     margin-left: -90px;
+}
+.tbc img{
+    margin-left: -150px;
 }
 }
 

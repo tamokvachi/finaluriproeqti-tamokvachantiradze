@@ -341,3 +341,9 @@ font-size: 35px;
 .contact-info h3:hover{
     color:#F5F3EF;
 }
+.tbc img{
+   margin-left: 650px;
+  margin-top: 130px;
+  width: 250px;
+  height: 250px;
+}
